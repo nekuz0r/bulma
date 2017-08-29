@@ -1,0 +1,160 @@
+.is-borderless
+  border: none !important
+
+@each $size in $sizes
+  $i: index($sizes, $size)
+  .has-margin-#{$i}
+    margin: $size !important
+  .has-margin-top-#{$i}
+    margin-top: $size !important
+  .has-margin-bottom-#{$i}
+    margin-bottom: $size !important
+  .has-margin-left-#{$i}
+    margin-left: $size !important
+  .has-margin-right-#{$i}
+    margin-right: $size !important
+  +mobile
+    .has-margin-#{$i}-mobile
+      margin: $size !important
+    .has-margin-top-#{$i}-mobile
+      margin-top: $size !important
+    .has-margin-bottom-#{$i}-mobile
+      margin-bottom: $size !important
+    .has-margin-left-#{$i}-mobile
+      margin-left: $size !important
+    .has-margin-right-#{$i}-mobile
+      margin-right: $size !important
+  +tablet
+    .has-margin-#{$i}-tablet
+      margin: $size !important
+    .has-margin-top-#{$i}-tablet
+      margin-top: $size !important
+    .has-margin-bottom-#{$i}-tablet
+      margin-bottom: $size !important
+    .has-margin-left-#{$i}-tablet
+      margin-left: $size !important
+    .has-margin-right-#{$i}-tablet
+      margin-right: $size !important
+  +touch
+    .has-margin-#{$i}-touch
+      margin: $size !important
+    .has-margin-top-#{$i}-touch
+      margin-top: $size !important
+    .has-margin-bottom-#{$i}-touch
+      margin-bottom: $size !important
+    .has-margin-left-#{$i}-touch
+      margin-left: $size !important
+    .has-margin-right-#{$i}-touch
+      margin-right: $size !important
+  +desktop
+    .has-margin-#{$i}-desktop
+      margin: $size !important
+    .has-margin-top-#{$i}-desktop
+      margin-top: $size !important
+    .has-margin-bottom-#{$i}-desktop
+      margin-bottom: $size !important
+    .has-margin-left-#{$i}-desktop
+      margin-left: $size !important
+    .has-margin-right-#{$i}-desktop
+      margin-right: $size !important
+  +widescreen
+    .has-margin-#{$i}-widescreen
+      margin: $size !important
+    .has-margin-top-#{$i}-widescreen
+      margin-top: $size !important
+    .has-margin-bottom-#{$i}-widescreen
+      margin-bottom: $size !important
+    .has-margin-left-#{$i}-widescreen
+      margin-left: $size !important
+    .has-margin-right-#{$i}-widescreen
+      margin-right: $size !important
+  +fullhd
+    .has-margin-#{$i}-fullhd
+      margin: $size !important
+    .has-margin-top-#{$i}-fullhd
+      margin-top: $size !important
+    .has-margin-bottom-#{$i}-fullhd
+      margin-bottom: $size !important
+    .has-margin-left-#{$i}-fullhd
+      margin-left: $size !important
+    .has-margin-right-#{$i}-fullhd
+      margin-right: $size !important
+
+@each $size in $sizes
+  $i: index($sizes, $size)
+  .has-padding-#{$i}
+    padding: $size !important
+  .has-padding-top-#{$i}
+    padding-top: $size !important
+  .has-padding-bottom-#{$i}
+    padding-bottom: $size !important
+  .has-padding-left-#{$i}
+    padding-left: $size !important
+  .has-padding-right-#{$i}
+    padding-right: $size !important
+  +mobile
+    .has-padding-#{$i}-mobile
+      padding: $size !important
+    .has-padding-top-#{$i}-mobile
+      padding-top: $size !important
+    .has-padding-bottom-#{$i}-mobile
+      padding-bottom: $size !important
+    .has-padding-left-#{$i}-mobile
+      padding-left: $size !important
+    .has-padding-right-#{$i}-mobile
+      padding-right: $size !important
+  +tablet
+    .has-padding-#{$i}-tablet
+      padding: $size !important
+    .has-padding-top-#{$i}-tablet
+      padding-top: $size !important
+    .has-padding-bottom-#{$i}-tablet
+      padding-bottom: $size !important
+    .has-padding-left-#{$i}-tablet
+      padding-left: $size !important
+    .has-padding-right-#{$i}-tablet
+      padding-right: $size !important
+  +touch
+    .has-padding-#{$i}-touch
+      padding: $size !important
+    .has-padding-top-#{$i}-touch
+      padding-top: $size !important
+    .has-padding-bottom-#{$i}-touch
+      padding-bottom: $size !important
+    .has-padding-left-#{$i}-touch
+      padding-left: $size !important
+    .has-padding-right-#{$i}-touch
+      padding-right: $size !important
+  +desktop
+    .has-padding-#{$i}-desktop
+      padding: $size !important
+    .has-padding-top-#{$i}-desktop
+      padding-top: $size !important
+    .has-padding-bottom-#{$i}-desktop
+      padding-bottom: $size !important
+    .has-padding-left-#{$i}-desktop
+      padding-left: $size !important
+    .has-padding-right-#{$i}-desktop
+      padding-right: $size !important
+  +widescreen
+    .has-padding-#{$i}-widescreen
+      padding: $size !important
+    .has-padding-top-#{$i}-widescreen
+      padding-top: $size !important
+    .has-padding-bottom-#{$i}-widescreen
+      padding-bottom: $size !important
+    .has-padding-left-#{$i}-widescreen
+      padding-left: $size !important
+    .has-padding-right-#{$i}-widescreen
+      padding-right: $size !important
+  +fullhd
+    .has-padding-#{$i}-fullhd
+      padding: $size !important
+    .has-padding-top-#{$i}-fullhd
+      padding-top: $size !important
+    .has-padding-bottom-#{$i}-fullhd
+      padding-bottom: $size !important
+    .has-padding-left-#{$i}-fullhd
+      padding-left: $size !important
+    .has-padding-right-#{$i}-fullhd
+      margin-right: $size !important
